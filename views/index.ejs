@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  <link rel="shortcut icon" type="image/png" href="/img/yt.png" />
+  <link href="CSS/style.css" rel="stylesheet">
+  <title>YouTube 2 MP3</title>
+</head>
+
+<body>
+  <div class="container1">
+
+
+
+  <div class="audio-container">
+    <form action="/convert" method="POST" id="form">
+      <h1> Let's convert video to audio...</h1>
+      <br>
+      <h4>Enter the video URL</h4>
+      <br />
+      <div>
+        <input type="<ul>
+      </ul>" name="urll" value="" placeholder="....">
+        <button id="submit-btn">Convert</button><br>
+      <br/>
+      </div>
+    </form>
+
+
+
+    <% if (typeof success != "undefined" && success) { %>
+      <div class="success">
+        <p> <%= song_title %> </p>
+        <br>
+        <a href="<%= song_link %>"><button id="download-btn">DOWNLOAD</button></a>
+      </div>
+    <% } else if (typeof success != "undefined" && !success) { %>
+      <div class="errors">
+        <p> <%= message %> </p>
+      </div>
+    <% } %>
+      <img class="image" src="Images/Untitled.png" alt="🎶🎶">
+<br />
+<br/>
+<%- include('partials/footer')%>
+  </div>
+
+  </div>
+</body>
+</html>

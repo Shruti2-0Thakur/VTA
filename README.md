@@ -20,10 +20,10 @@ VTA is a web application designed to convert MP4 videos to MP3 audio files effic
 ## Screenshots
 
 ![You Tube](path/demo.png)
-*You Tube*
 
+##
 ![Conversion Process](path/convert.png)
-*Conversion Process*
+
 
 
 
